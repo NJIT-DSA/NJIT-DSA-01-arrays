@@ -88,11 +88,11 @@ https://en.wikipedia.org/wiki/Insertion_sort
 
 ## Implement generic versions
 
-`Grades` `sort()` and `reverse()` only work with `Integer` arrays. Sorting and reversing are things that can be done to any kind of elements in an array.
+The algorithms of `sort()` and `reverse()` in `Grades.java` work only with `Integer` arrays. However, sorting and reversing are operations that can be done to any kind of elements in an array.
 
-**Create** a new file `Algorithms.java` and implement sorting and reversing as *generic algorithms*.
+**Create** a new file, `Algorithms.java`, into the directory as where the `Grades.java` is, and implement sorting and reversing as *generic algorithms* as instructed below.
 
-**IMPORTANT!** Later exercises and tests, use these algorithms. So make sure the interfaces of reverse and sort look **exactly** like this:
+**IMPORTANT!** Later exercises and tests, will use the algorithms of Àlgorithms.java`, so make sure the interfaces of reverse and sort methods look **exactly** like this:
 
 ```Java
 public static <T extends Comparable<T>> void sort(T [] array) {
