@@ -62,7 +62,7 @@ Run the tests several times. You will see that sometiems they pass, but sometime
 
 ### First focus on the reverse method testing
 
-Study the output of the *Debug Console* in VSCode. See for yourself sometimes the result is correct and sometimes not. What is the difference between those arrays that get reversed correctly and those that do not? Could this difference explain the strange behavior? Alternatively, you can also study the test code. Can you see, from the test code and the arrays used in the testing, something that would explain why some tests fail and some do not? How do the arrays differ in these cases?
+Study the output of the *Debug Console* in VSCode. See for yourself that sometimes the result is correct and sometimes it is not. What is the difference between those arrays that get reversed correctly and those that do not? Could this difference explain the strange behavior? Alternatively, you can also study the test code. Can you see, from the test code and the arrays used in the testing, something that would explain why some tests fail and some do not? How do the arrays differ in these cases?
 
 You should see that the reverse does not always work as expected.
 
