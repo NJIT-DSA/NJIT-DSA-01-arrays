@@ -66,10 +66,10 @@ Study the output of the *Debug Console* in VSCode. See for yourself that sometim
 
 You should see that the reverse does not always work as expected.
 
-* **Study the code** and try to *reason* what is the issue with the implementation. Draw/write on paper to understand what is happening as you "run" the code in your head, assisted by the pen and paper.
-* **Debug** the code with VS Code debugger by setting **breakpoints** and step the lines of code to see what is happening. View variable values. Execute the tests in the debugger by pressing the play button with the bug symbol in it.
+* **Study the code** and try to *reason* what the issue with the implementation is. Draw/write on paper to understand what is happening as you "run" the code in your mind, assisted by the pen and paper.
+* **Debug** the code with VS Code debugger by setting **breakpoints** and step the lines of code one by one to see what is happening. View variable values. Execute the tests in the debugger by pressing the play button with the bug symbol in it.
 
-As you begin to understand what the issue is, **fix it**. Execute the tests again to see if your fixes actually work or not. Make sure you have many various kinds of arrays and correct expected result arrays to compare to.
+As you begin to understand what the issue is, **fix it**. Execute the tests again to see if your fixes actually work or not. Make sure that you test several times, so that you will have many various kinds of arrays and correct expected result arrays to compare to.
 
 ### Next focus on testing the sort method
 
