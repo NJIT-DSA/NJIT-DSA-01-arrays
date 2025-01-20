@@ -38,7 +38,7 @@ if (someInteger.compareTo(anotherInteger) == 0) { // Are the numbers equal?
 
 **First** execute **only** the `FirstTests` tests so that you can see the sort and reverse algoritms working.
 
-You can run these tests from the command prompt or from VS Code. Running on the command prompt:
+You can run these tests from the command prompt or from VS Code. Running from the command prompt:
 
 ```
 mvn -Dtest=FirstTests test
