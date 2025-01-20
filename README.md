@@ -36,7 +36,7 @@ if (someInteger.compareTo(anotherInteger) == 0) { // Are the numbers equal?
 }
 ```
 
-**First** execute **only** the `FirstTests` tests so that you can see the sort and reverse algoritms working.
+**First** execute **only** the `FirstTests`. This contains a test both for the reverse algorithm and sort algorithm. You can see them in the image below under `FirstTests`.
 
 You can run these tests from the command prompt or from VS Code. Running from the command prompt:
 
@@ -44,11 +44,11 @@ You can run these tests from the command prompt or from VS Code. Running from th
 mvn -Dtest=FirstTests test
 ```
 Or test from VS Code by choosing the test view (lab bottle view, see red highlighted rectangle in the image below) and by executing **only** the `FirstTests` test (blue rectangle) by pressing the run button (triangle).
-You will get a 'Build failed' error message. This is because of a missing file that you will add later. So, you can just press 'Continue'.
+You will get a `Build failed` error message. This is because of a missing file that you will add later. So, you can just press `Continue`.
 
 ![First test to execute](test-first.png)
 
-Test seem to pass. But this is just an illusion -- the *tests are not adequate* and *fail* to reveal bugs in both `reverse()` and `sort()` methods.
+Both reverse and sort tests seem to pass. But this is just an illusion -- the *tests are not adequate* and *fail* to reveal bugs in both `reverse()` and `sort()` methods.
 
 **Now execute** the `SecondTests`, from the command line:
 
