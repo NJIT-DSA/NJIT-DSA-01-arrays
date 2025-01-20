@@ -15,7 +15,7 @@ Note that here you must implement the algorithms "in-place", and *not* by creati
 You have all the tools installed and working. This was tested in the `00-init` exercise 
 of the course. If you haven't done that yet, do it now.
 
-Generic sort and generic classes in have been taught earlier in Programming 2 course. So take a look at those materials from that course if necessary.
+The course Moodle contains some material that introduces the concept of generic algorithms and generic classes. Please take a look at those materials if necessary.
 
 ## Instructions
 
