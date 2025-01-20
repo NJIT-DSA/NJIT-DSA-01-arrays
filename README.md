@@ -55,7 +55,7 @@ Both reverse and sort tests seem to pass. But this is just an illusion -- the *t
 ```console
 mvn -Dtest=SecondTests test
 ```
-And from VS Codesta by clicking the play button on the right side of the `SecondTests`.
+or from VS Codesta by clicking the play button on the right side of the `SecondTests`.
 
 Run the tests several times. You will see that sometiems they pass, but sometimes they do not. Sometimes one of the tests passes, sometimes the other. Why?
 
