@@ -106,9 +106,9 @@ public static <T> void reverse(T [] array) {
 
 **Change** the `Grades` implementation so that it calls the `Algorithms` generic methods.
 
-**Note** also that both `sort` and `reverse` swap places of two elements in the array. Therefore, it is a good idea(tm) to implement this swapping operation as a generic method `swap` in the `Algorithms` class, used by both  `sort` and `reverse`.
+**Note** also that both `sort` and `reverse` swap places of two elements in the array. Therefore, it is a good idea to implement this swapping operation as a generic method `swap` in the `Algorithms` class, used by both  `sort` and `reverse`.
 
-If necessary, revisit the Programming 2 materials on generic methods and classes. Ask for help during teaching sessions.
+If necessary, revisit the materials on generic methods and classes. Ask for help during teaching sessions.
 
 Note that you will need the generic sort later in the exercises, so do not jump ahead skipping this task.
 
