@@ -92,7 +92,7 @@ The algorithms of `sort()` and `reverse()` in `Grades.java` work only with `Inte
 
 **Create** a new file, `Algorithms.java`, into the directory as where the `Grades.java` is, and implement sorting and reversing as *generic algorithms* as instructed below.
 
-**IMPORTANT!** Later exercises and tests, will use the algorithms of Àlgorithms.java`, so make sure the interfaces of reverse and sort methods look **exactly** like this:
+**IMPORTANT!** Later exercises and tests, will use the algorithms of `Algorithms.java`, so make sure the interfaces of reverse and sort methods look **exactly** like this:
 
 ```Java
 public static <T extends Comparable<T>> void sort(T [] array) {
@@ -112,15 +112,17 @@ If necessary, revisit the materials on generic methods and classes. Ask for help
 
 Note that you will need the generic sort later in the exercises, so do not jump ahead skipping this task.
 
+Finally, change the `reverse()` and `sort()` mehtods in `Grades.java` to call the generic methods and remove or commnet out the earlier methods.
+
 ## Final test of the generic algorithms
 
 In the root folder if this project, you will find a new test in the file `GenericTests.java`. **Move this file** to the test code directory `src/test/java/oy/tol/tra`. Now you can also use this new test to test your generic implementations. It will test your `reverse` and `sort` methods using both `Integer` and `String` arrays.
 
-When the tests pass, you may deliver the exercise for evaluation and grading and continue to the next exercise.
+When the tests pass, you may deliver the exercise in gitHub Classroom for evaluation and grading as instructed, and continue to the next exercise.
 
 ## Delivery
 
-When you have fixed the issues in the `reverse()` and `sort()` methods of `Grades` and have them implemented as generic methods, deliver your submission for evaluation as instructed in the course.
+When you have fixed the issues in the `reverse()` and `sort()` methods of `Grades.java` and have them implemented as generic methods in `Algorithms.java`, deliver your submission for evaluation as instructed in the course.
 
 **Do not forget** to `git add` your `Algorithms.java` before committing and pushing to your remote repository! Also commit the moving of the `GenericTests.java` file to the test directory.
 
