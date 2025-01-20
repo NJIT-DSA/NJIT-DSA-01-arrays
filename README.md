@@ -43,8 +43,8 @@ You can run these tests from the command prompt or from VS Code. Running from th
 ```
 mvn -Dtest=FirstTests test
 ```
-Or test from VS Code by choosing the test view (lab bottle view, see red highlighted rectangle in the image below) and by executing **only** the `FirstTests` test (blue rectangle) by pressing the run button (triangle).
-You will get a `Build failed` error message. This is because of a missing file that you will add later. So, you can just press `Continue`.
+or test from VS Code by choosing the test view (lab bottle view, see red highlighted rectangle in the image below) and by executing **only** the `FirstTests` test (blue rectangle) by pressing the run button (triangle).
+You will get a *Build failed* error message. This is because of a missing file that you will add later. So, you can just press *Continue*.
 
 ![First test to execute](test-first.png)
 
